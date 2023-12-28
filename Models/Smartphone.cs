@@ -22,14 +22,12 @@ namespace DesafioPOO.Models
                 {
                     throw new ArgumentException("Número inválido.");
                 }
-                else 
-                {
-                    numero = value;
-                }
+                else numero = value;                
             }
         }
 
         private string modelo; 
+
         private string Modelo
         {            
             get { return modelo; }
@@ -48,6 +46,7 @@ namespace DesafioPOO.Models
         }
         
         private string imei;
+
         private string IMEI 
         { 
             get { return imei; }            
@@ -68,6 +67,7 @@ namespace DesafioPOO.Models
         }
 
         private int memoria;
+        
         private int Memoria 
         { 
             get { return memoria; }
