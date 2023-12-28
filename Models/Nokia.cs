@@ -1,8 +1,19 @@
+using System.Security.Cryptography.X509Certificates;
+
 namespace DesafioPOO.Models
 {
-    // TODO: Herdar da classe "Smartphone"
-    public class Nokia
+    public class Nokia : Smartphone
     {
-        // TODO: Sobrescrever o método "InstalarAplicativo"
-    }
+        //Invocando construtores da classe base
+        public Nokia(string numero, string modelo, string imei, int memoria) :
+               base(numero, modelo, imei, memoria) 
+        {
+        }
+
+        //Sobrescrevendo método abstrato
+        public override void InstalarAplicativo(string nomeApp)
+        {
+            System.Console.WriteLine($"Instalando aplicativo {nomeApp}.");
+        }
+    }    
 }
