@@ -12,6 +12,7 @@ Partindo de uma classe abstrata, criar duas classes filhas com características 
 1. A classe **Smartphone** deve ser abstrata, não permitindo instanciar e servindo apenas como modelo.
 2. A classe **Nokia** e **Iphone** devem ser classes filhas de Smartphone.
 3. O método **InstalarAplicativo** deve ser sobrescrito na classe Nokia e iPhone, pois ambos possuem diferentes maneiras de instalar um aplicativo.
+
 Além das tarefas originalmente propostas pelo desafio, implementei validações para todas as propriedades das classes, conforme pode ser observado no código fonte do programa.
 
 ## Conclusão
